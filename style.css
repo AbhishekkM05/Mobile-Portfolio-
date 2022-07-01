@@ -4,9 +4,9 @@
   align-items: center;
 }
  
-header{
-  padding: 25px;
-  height:  110px;    
+header {
+  padding:  25px;
+  height: 110px;    
 }
 
 section{
@@ -17,20 +17,20 @@ section{
 }
 
 h1 {
-  Font-family: 'Poppins';
-  Font-style: Bold;
-  Font-size: 40px;
-  Line-height: 52px;
-  Line-height: 87%;
+  font-family: 'Poppins';
+  font-style: Bold;
+  font-size: 40px;
+  line-height: 52px;
+  line-height: 87%;
   color: #172b4d;
 }
 
 .About{
-  Font-family: 'Poppins';
-  Font-style: Regular;
-  Font-size: 16px;
-  Line-height: 24px;
-  Line-height: 100%;
+  font-family: 'Poppins';
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 100%;
   color: #344563;
   margin-top: -10px;
   margin-left: 20px;
