@@ -8,7 +8,7 @@
 header {
   padding: 25px;
   height: 110px;
-} 
+}
 
 main {
   display: flex;
@@ -67,11 +67,20 @@ h1 {
   border-radius: 10px;
 }
 
+.languages > li {
+  display: flex;
+  border: 5px solid #f7f7f9;
+  border-radius: 10px;
+  margin: 3px;
+  background: #f7f7f9;
+  margin-left: -35px;
+}
+
 .Links ul li {
   list-style-type: none;
 }
 
-.details{
+.details {
   display: flex;
   justify-content: space-around;
   margin-left: -40px;
@@ -94,31 +103,26 @@ h1 {
   margin-top: 100px;
   align-content: space-between; */
   display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.projects1  { 
-  
-    /* align-content: center;
+
+.projects1 {
+  /* align-content: center;
      */
-   margin-bottom: 30px; 
-   background-color: white;
-   border: 1px solid white;
-   border-radius: 5px;
-   padding: 15px;
-   -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
-} 
-.project-img{
-  text-align: center;
+  margin-bottom: 30px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 15px;
+  -webkit-box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.75);
 }
 
-.task ul {
-  font-style: bold;
-  color: #172b4d;
+.project-img {
+  text-align: center;
 }
 
 .task ul {
@@ -146,11 +150,6 @@ button {
   line-height: 32px;
   border: 1px solid blue;
 }
-.About {
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-}
 
 h2 {
   font-family: "Poppins", sans-serif;
@@ -167,13 +166,11 @@ h2 {
   list-style-type: none;
   gap: 10px;
   margin-left: -35px;
-  
 }
 
-ul.social-icon li { 
-  margin-left: 0px;
-  
- }  
+ul.social-icon li {
+  margin-left: 0;
+}
 
 .skill {
   font-family: "Poppins", sans-serif;
@@ -190,15 +187,6 @@ ul.social-icon li {
   flex-direction: column;
   width: 85%;
   justify-content: center;
-}
-
-.languages > li {
-  display: flex;
-  border: 5px solid #f7f7f9;
-  border-radius: 10px;
-  margin: 3px;
-  background: #f7f7f9;
-  margin-left: -35px;
 }
 
 .tech {
