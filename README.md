@@ -19,7 +19,9 @@ Mobile version of Portfolio Project.
 
 
 To get a local copy up and running follow these simple example steps.
+
 clone my code by executing :
+
 git clone : https://github.com/AbhishekkM05/Mobile-Portfolio-.git
 
 
