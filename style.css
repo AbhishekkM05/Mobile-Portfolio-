@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .Main-container {
   display: flex;
   justify-content: space-between;
@@ -40,16 +44,17 @@ h1 {
   margin-bottom: 20px;
 }
 
-.Meet {
+.meet {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   text-decoration: none;
-  color: #7f8cff;
+  color: rgb(127, 140, 255);
   margin-left: 20px;
   margin-right: 20px;
+  padding-bottom: 20px;
 }
 
 .Links ul {
@@ -88,18 +93,19 @@ h1 {
   list-style: none;
 }
 
-.grid-container {
+/* .grid-container {
   display: grid;
   grid-template-rows: 1fr;
   grid-gap: 20px;
   width: 100%;
-}
+} */
 
 .projects {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-align: start;
 }
 
 .projects1 {
@@ -115,6 +121,7 @@ h1 {
 
 .project-img {
   text-align: center;
+  max-width: 80%;
 }
 
 .task ul {
@@ -125,6 +132,17 @@ h1 {
   margin-left: -35px;
   color: #344563;
   list-style-type: none;
+  text-align: start;
+}
+
+.para {
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+
+  /* width: 80%; */
+  margin-right: 20px;
+  margin-left: 5px;
 }
 
 .lang {
@@ -142,6 +160,8 @@ button {
   font-size: 16px;
   line-height: 32px;
   border: 1px solid blue;
+  margin-left: 5px;
+  margin-bottom: 10px;
 }
 
 h2 {
@@ -152,6 +172,12 @@ h2 {
   line-height: 52px;
   color: #172b4d;
   padding: 10px;
+  margin-left: -8px;
+}
+
+.connect {
+  padding-bottom: 20px;
+  color: rgb(127, 140, 255);
 }
 
 .social-icon {
