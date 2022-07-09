@@ -4,7 +4,7 @@
 Portfolio 
 
 > Description 
-Mobile skeleton setup of Portfolio using HTML & CSS. 
+Mobile version of Portfolio Project. 
 
 ## Built With
 
@@ -15,33 +15,21 @@ Mobile skeleton setup of Portfolio using HTML & CSS.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+
 
 
 To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+clone my code by executing :
+git clone : https://github.com/AbhishekkM05/Mobile-Portfolio-.git
 
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/AbhishekkM05)
+- Twitter: [@twitterhandle](https://twitter.com/KPrinceM05)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abhishek-kumar-mishra-bb5bb4101/)
 
 ## 🤝 Contributing
 
@@ -54,10 +42,7 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+Thank you 
 
 ## 📝 License
 
