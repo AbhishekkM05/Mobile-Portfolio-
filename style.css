@@ -125,7 +125,7 @@ h1 {
 }
 
 .task ul {
-  display: flex;
+ /* display: flex;  */
   gap: 20px;
   border-radius: 8px;
   margin-right: 20px;
@@ -146,9 +146,12 @@ h1 {
 }
 
 .lang {
-  list-style-type: none;
-  display: flex;
-  gap: 24px;
+   list-style-type: none;
+   /* display: flex;
+  gap: 24px;   */
+  float: left;
+  
+
 }
 
 button {
