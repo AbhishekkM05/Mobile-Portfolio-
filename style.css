@@ -125,7 +125,7 @@ h1 {
 }
 
 .task ul {
-  display: flex;
+  /* display: flex; */
   gap: 20px;
   border-radius: 8px;
   margin-right: 20px;
@@ -147,7 +147,8 @@ h1 {
 
 .lang {
   list-style-type: none;
-  display: flex;
+  /* display: flex; */
+  float: left;
   gap: 24px;
 }
 
