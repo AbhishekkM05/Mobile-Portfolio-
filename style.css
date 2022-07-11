@@ -125,7 +125,11 @@ h1 {
 }
 
 .task ul {
+<<<<<<< HEAD
  /* display: flex;  */
+=======
+  /* display: flex; */
+>>>>>>> 7921c7652457e8b120f08d52a2dd151337e97172
   gap: 20px;
   border-radius: 8px;
   margin-right: 20px;
