@@ -57,6 +57,19 @@ h1 {
   padding-bottom: 20px;
 }
 
+form > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  list-style-type: none;
+  margin-right: 35px;
+}
+
 .Links ul {
   display: flex;
   justify-content: flex-start;
@@ -125,11 +138,7 @@ h1 {
 }
 
 .task ul {
-<<<<<<< HEAD
- /* display: flex;  */
-=======
-  /* display: flex; */
->>>>>>> 7921c7652457e8b120f08d52a2dd151337e97172
+  display: flex;
   gap: 20px;
   border-radius: 8px;
   margin-right: 20px;
@@ -150,12 +159,11 @@ h1 {
 }
 
 .lang {
-   list-style-type: none;
-   /* display: flex;
-  gap: 24px;   */
-  float: left;
-  
+  list-style-type: none;
+  display: flex;
+  gap: 24px;
 
+  /* float: left; */
 }
 
 button {
@@ -230,3 +238,69 @@ hr {
   margin-left: 10px;
   background: #f7f7f9;
 }
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-image: url(assets/images/Contact\ me.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.first-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 15px;
+}
+
+.first-container > h2 {
+  color: white;
+  margin-top: 100px;
+}
+
+.first-container > p {
+  color: white;
+}
+
+form > ul > li > input {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  background-color: white;
+  padding: 10px;
+  width: 327px;
+}
+
+form > ul > li > textarea {
+  color: #b3bac5;
+  width: 327px;
+  padding: 10px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+.shape {
+  width: 134px;
+  height: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  background: #0d151e;
+}
+
+/*
+ input:hover {
+  transform: translate(2.5rem, 2ex);
+}
+
+textarea:hover {
+  transform: translate(2.5rem, 2ex);
+}
+
+img:hover {
+  transform: scale(0.7);
+}   */
