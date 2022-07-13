@@ -67,7 +67,7 @@ form > ul {
   font-size: 17px;
   line-height: 20px;
   list-style-type: none;
-  margin-right: 35px;
+  margin-right: 100px;
 }
 
 .Links ul {
@@ -153,9 +153,15 @@ form > ul > li {
 }
 
 .para {
-  font-size: 15px;
+  /* font-size: 15px; */
   line-height: 24px;
   color: #344563;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+  /* line-height: 28px; */
 
   /* width: 80%; */
   margin-right: 20px;
@@ -273,13 +279,13 @@ form > ul > li > input {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   background-color: white;
-  padding: 30px;
-  width: 327px;
+  padding: 10px;
+  width: 165%;
 }
 
 form > ul > li > textarea {
   color: #b3bac5;
-  width: 327px;
+  width: 125%;
   padding: 10px;
 }
 
