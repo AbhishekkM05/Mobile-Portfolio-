@@ -176,7 +176,7 @@ form > ul > li {
   /* float: left; */
 }
 
-button {
+.btn {
   background: #fff;
   color: #396df2;
   border-radius: 8px;
@@ -187,6 +187,22 @@ button {
   border: 1px solid blue;
   margin-left: 5px;
   margin-bottom: 10px;
+}
+
+.btn:hover {
+  background-color: #396df2;
+  color: #fff;
+  transition: 0.7s;
+}
+
+.btn:active {
+  background-color: blue;
+  color: #fff;
+}
+
+.btn:disabled {
+  background-color: #cfd8dc;
+  color: #fff;
 }
 
 h2 {
